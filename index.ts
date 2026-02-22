@@ -1,7 +1,6 @@
 import { startServer } from "./src/server";
 import { connectDB } from "./src/config/db";
-
-const PORT = 4000;
+import {PORT} from './src/config/env'
 
 const bootstrap = async () => {
 
